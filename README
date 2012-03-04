@@ -1,0 +1,3 @@
+This is a little utility to concatenate several PDF files into one and thereby preserve table of contents ("bookmarks") that may exist for the single files.
+
+Uses pdfjoin and mbtPdfAsm. Maybe later going to use pyPdf for everything that is now done by mbtPdfAsm.
