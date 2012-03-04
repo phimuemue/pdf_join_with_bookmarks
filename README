@@ -1,3 +1,5 @@
 This is a little utility to concatenate several PDF files into one and thereby preserve table of contents ("bookmarks") that may exist for the single files.
 
 Uses pdfjoin and mbtPdfAsm. Maybe later going to use pyPdf for everything that is now done by mbtPdfAsm.
+
+Usage: `python joiner.py file1.pdf file2.pdf file3.pdf`. Output file is named `complete_with_bookmarks.pdf`.
